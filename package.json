@@ -1,0 +1,18 @@
+{
+  "name": "jira2md",
+  "version": "1.0.0",
+  "description": "Jira format text to Markdown text",
+  "author": "akinov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2"
+  },
+  "devDependencies": {}
+}
