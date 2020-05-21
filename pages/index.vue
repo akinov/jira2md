@@ -17,6 +17,7 @@
 </template>
 
 <script>
+const j2m = require("jira2md");
 export default {
   name: "Jira2MD",
 
@@ -28,7 +29,7 @@ export default {
 
   computed: {
     markdown() {
-      return this.jira;
+      return j2m.to_markdown(this.jira);
     }
   }
 };
