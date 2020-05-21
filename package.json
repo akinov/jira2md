@@ -8,11 +8,13 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "hosting": "firebase deploy --only hosting"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.3.2"
+    "nuxt-buefy": "^0.3.2",
+    "firebase": "^6.3.1"
   },
   "devDependencies": {}
 }
