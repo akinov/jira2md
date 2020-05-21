@@ -3,13 +3,32 @@
     <div class="columns">
       <div class="column is-6">
         <b-field label="Jira">
-          <b-input type="textarea" v-model="jira"></b-input>
+          <b-input
+            type="textarea"
+            v-model="jira"
+            placeholder="h1. title
+
+* list
+** list2
+
+[link|https://jira2md.web.app/]"
+          ></b-input>
         </b-field>
       </div>
 
       <div class="column is-6">
         <b-field label="Markdown">
-          <b-input type="textarea" :value="markdown" readonly></b-input>
+          <b-input
+            type="textarea"
+            :value="markdown"
+            readonly
+            placeholder="# title
+
+* list
+  * list2
+
+[link](https://jira2md.web.app/)"
+          ></b-input>
         </b-field>
       </div>
     </div>
