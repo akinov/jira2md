@@ -8,6 +8,11 @@
       <div class="navbar-brand">
         <a class="navbar-item" href="/">Jira2MD</a>
       </div>
+      <!-- <div class="navbar-menu">
+        <div class="navbar-start">
+          <b-navbar-item to="usage">使い方</b-navbar-item>
+        </div>
+      </div> -->
     </nav>
 
     <section class="main-content">
