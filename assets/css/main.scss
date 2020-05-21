@@ -1,0 +1,27 @@
+html,
+body,
+#__nuxt,
+#__layout {
+  height: 100vh;
+}
+
+#layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1 1 100%;
+  .section,
+  .columns,
+  .field,
+  .control,
+  .textarea {
+    height: 100%;
+  }
+}
+
+.footer {
+  padding: 1rem 1.5rem;
+}

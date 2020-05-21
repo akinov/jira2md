@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <nav class="navbar header has-shadow is-primary" role="navigation" aria-label="main navigation">
+  <div id="layout">
+    <nav
+      class="navbar header has-shadow is-primary"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="navbar-brand">
         <a class="navbar-item" href="/">Jira2MD</a>
       </div>
@@ -9,26 +13,24 @@
     <section class="main-content">
       <nuxt />
     </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          created by
+          <a href="https://twitter.com/kuronekopunk" target="_blank"
+            >@kuronekopunk</a
+          >.
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      items: [
-        {
-          title: "Home",
-          icon: "home",
-          to: { name: "index" }
-        },
-        {
-          title: "Inspire",
-          icon: "lightbulb",
-          to: { name: "inspire" }
-        }
-      ]
-    };
+    return {};
   }
 };
 </script>
