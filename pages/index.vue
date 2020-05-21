@@ -9,7 +9,7 @@
 
       <div class="column is-6">
         <b-field label="Markdown">
-          <b-input type="textarea" :value="markdown"></b-input>
+          <b-input type="textarea" :value="markdown" readonly></b-input>
         </b-field>
       </div>
     </div>
@@ -19,8 +19,12 @@
 <script>
 const j2m = require("jira2md");
 export default {
-  name: "Jira2MD",
-
+  head() {
+    return {
+      titleTemplate: null,
+      title: "Jira記法のテキストをMarkdownに変換するツール - Jira2MD"
+    };
+  },
   data() {
     return {
       jira: ""
